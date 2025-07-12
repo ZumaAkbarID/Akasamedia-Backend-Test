@@ -17,14 +17,14 @@ class EmployeeSeeder extends Seeder
         $employees = [
             [
                 'name' => 'John Doe',
-                'image' => 'employees/example2.jpg',
+                'image' => 'employees/default.jpg',
                 'phone' => '07345678978',
                 'division_id' => Division::query()->inRandomOrder()->first()->id,
                 'position' => 'Backend Developer',
             ],
             [
                 'name' => 'Rahmat Wahyuma Akbar',
-                'image' => 'employees/example1.jpg',
+                'image' => 'employees/default.jpg',
                 'phone' => '2132423432',
                 'division_id' => Division::query()->inRandomOrder()->first()->id,
                 'position' => 'FrontEnd Developer',
