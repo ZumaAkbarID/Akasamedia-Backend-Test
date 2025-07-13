@@ -1,3 +1,4 @@
 *
 !.gitignore
+!employees/
 !employees/default.jpg
